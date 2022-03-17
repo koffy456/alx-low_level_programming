@@ -1,5 +1,6 @@
-#include <unistd.h>
-int _putchar(char c)
+#include "main.h"
+int main(void)
 {
-	return (write(1, &c, 1));
+	print_alpha_bet();
+	return (0);
 }
