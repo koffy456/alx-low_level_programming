@@ -1,13 +1,19 @@
 #include "main.h"
+/**
+ * print_most_numbers - prints the numbers
+ *
+ */
 void print_most_numbers(void)
 {
-	int i;
-	for (i = '0'; i <= '9'; i++)
+	int number;
+
+	for (number = '0'; number <= '9'; number++)
 	{
-		if (i != '2' && i != '4')
-		{
-			_putchar(i);
-		}
+		if (number == '2' ||  number == '4');
+		
+		else 
+			_putchar(number);
+		
 	}
 	_putchar('\n');
 }
